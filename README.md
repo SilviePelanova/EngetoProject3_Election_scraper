@@ -18,7 +18,9 @@ __Voting results for district Brno-venkov:__
 __Starting the program:__  
 python main.py https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6203 result_tab.csv
 
-__Scraping progress:__  
+__Scraping progress example:__  
+
+![Scraping progress example](https://github.com/SilviePelanova/EngetoProject3_Election_scraper/blob/main/Scraping%20result%20example.png)
 
 __Scraping result example:__
 
