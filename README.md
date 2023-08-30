@@ -20,3 +20,6 @@ __Starting the program:__
 python main.py https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6203 result_tab.csv
 
 __Scraping progress:__  
+
+__Scraping result example
+![Sraping result example](Scraping progress example.png)
