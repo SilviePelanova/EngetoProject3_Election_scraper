@@ -5,14 +5,13 @@ Election scraper is designed to scrape election data from a web [Volby.cz](https
 
 ## Installation
 
-Download file main.py and requirement.txt. Open a tool supporting to run .py files. Install configuration file "requirements.txt" using command pip install -r requirements.txt.  
+Download files main.py and requirement.txt. Open a tool supporting to run .py files. Install configuration file "requirements.txt" using command pip install -r requirements.txt.  
 
 ## Data scraping
 File "main.py" can be triggered from command line using 2 arguments. Once the command line is opened write "python", name of a file "main.py" and write two arguments. First argument is URL of a chosen district [here](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ). The second argument is the name of file where data will be stored "result_tab.csv". Order of arguments must be kept as written. Once the scraping is completed the program is closed.
 
-**_Voting results for district Brno-venkov:_**
-
-__Arguments__  
+__Voting results for district Brno-venkov:__
+ 
 1. argument = https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6203
 1. argument = result_tab.csv
 
@@ -22,4 +21,5 @@ python main.py https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6
 __Scraping progress:__  
 
 __Scraping result example:__
-![Sraping result example](https://github.com/SilviePelanova/EngetoProject3_Election_scraper/blob/main/Scraping%20progress%20example.png)https://github.com/SilviePelanova/EngetoProject3_Election_scraper/blob/main/Scraping%20progress%20example.png)
+
+![Sraping result example](https://github.com/SilviePelanova/EngetoProject3_Election_scraper/blob/main/Scraping%20progress%20example.png)
