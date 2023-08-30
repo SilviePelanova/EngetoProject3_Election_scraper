@@ -21,5 +21,5 @@ python main.py https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6
 
 __Scraping progress:__  
 
-__Scraping result example
-![Sraping result example](Scraping progress example.png)
+__Scraping result example:__
+![Sraping result example](https://github.com/SilviePelanova/EngetoProject3_Election_scraper/blob/main/Scraping%20progress%20example.png)https://github.com/SilviePelanova/EngetoProject3_Election_scraper/blob/main/Scraping%20progress%20example.png)
