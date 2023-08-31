@@ -5,18 +5,18 @@ Election scraper is designed to scrape election data from a web [Volby.cz](https
 
 ## Installation
 
-Download files main.py and requirement.txt. Open a tool supporting to run .py files. Install configuration file "requirements.txt" using command pip install -r requirements.txt.  
+Download files main.py and requirements.txt. Open a tool supporting to run .py files. Install configuration file "requirements.txt" using command pip install -r requirements.txt.  
 
 ## Data scraping
-File "main.py" can be triggered from command line using 2 arguments. Once the command line is opened write "python", name of a file "main.py" and write two arguments. First argument is URL of a chosen district [here](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ). The second argument is the name of file where data will be stored "result_tab.csv". Order of arguments must be kept as written. Once the scraping is completed the program is closed.
+File "main.py" can be triggered from command line using 2 arguments. Once the command line is opened write "python", name of a file "main.py" and write two arguments. First argument is URL of a chosen district [here](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ)(e.g. Brno-venkov, Trebic. The second argument is the name of file where data will be stored "result_tab.csv". Order of arguments must be kept. Once the scraping is completed the program is closed.
 
 __Voting results for district Brno-venkov:__
  
-1. argument = https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6203
+1. argument = "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6203"
 1. argument = result_tab.csv
 
 __Starting the program:__  
-python main.py https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6203 result_tab.csv
+python main.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6203" result_tab.csv
 
 __Scraping progress example:__  
 
